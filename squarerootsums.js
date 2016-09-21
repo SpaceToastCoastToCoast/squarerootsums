@@ -1,5 +1,5 @@
 module.exports = function(number) {
-  var sum = new Array(number)
+  return new Array(number)
   .fill(0)
   .map(function(element, index) {
     return Math.sqrt(parseInt(index) + 1);
@@ -7,5 +7,4 @@ module.exports = function(number) {
   .reduce(function(prev, curr) {
     return prev + curr;
   }, 0);
-  return sum;
 };
