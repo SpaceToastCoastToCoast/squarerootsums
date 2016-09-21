@@ -10,4 +10,9 @@ describe('square root sums', function() {
     expect(squareRootSums(2)).to.be.within(2.414, 2.415);
     expect(squareRootSums(4)).to.be.within(6.146, 6.147);
   });
+  it('should handle invalid input gracefully', function() {
+    expect(squareRootSums(0)).to.equal(0);
+    expect(squareRootSums.bind(null, -1)).to.throw(RangeError);
+    expect(squareRootSums.bind(null, '4')).to.throw(TypeError);
+  });
 });
