@@ -12,7 +12,7 @@ describe('square root sums', function() {
   });
   it('should handle invalid input gracefully', function() {
     expect(squareRootSums(0)).to.equal(0);
-    expect(squareRootSums.bind(null, -1)).to.throw(RangeError);
+    expect(squareRootSums.bind(null, -1)).to.throw(Error);
     expect(squareRootSums.bind(null, '4')).to.throw(TypeError);
   });
 });
