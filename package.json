@@ -1,0 +1,23 @@
+{
+  "name": "squarerootsums",
+  "version": "1.0.0",
+  "description": "",
+  "main": "squarerootsums.js",
+  "scripts": {
+    "test": "mocha -R spec --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpaceToastCoastToCoast/squarerootsums.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpaceToastCoastToCoast/squarerootsums/issues"
+  },
+  "homepage": "https://github.com/SpaceToastCoastToCoast/squarerootsums#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}
